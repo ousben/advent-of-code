@@ -997,7 +997,9 @@ nine6chd4
 bdvkqlrh9eight6eightninehq7
 fivexpx1vsrreightkp7dph
 3eightlrrlgck967
-xcntwone4633sixmkm1nine`
+xcntwone4633sixmkm1nine`;
+
+// advent of code day #1 part #1
 
 function manipulation(string) {
   let digits = '';
@@ -1031,3 +1033,5 @@ function calibrationValueFunction(string) {
 //console.log(manipulation("3eightlrrlgck967"));
 //console.log(manipulation("xrlsktwodnbcbonefvxxqgbrsdthree3seven"))
 console.log(calibrationValueFunction(longString));
+
+//advent of code day #1 part #2
