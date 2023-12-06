@@ -9,7 +9,10 @@ Game 5: 6 red, 1 blue, 3 green; 2 blue, 1 red, 2 green`;
 function separateGamesIntoSets(string) {
   const lines = string.split("\n");
   let result = lines.map(line => {
-    return line.split(": ")[1].split("; ")//.map(set => set.split(", "));
+    return line
+    .split(": ")[1]
+    .split("; ")
+    .map(set => set.split(", "));
   });
   return result
 }
