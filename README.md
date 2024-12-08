@@ -25,15 +25,15 @@ Each day's folder contains:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/advent-of-code-2024.git
+   git clone https://github.com/ousben/advent-of-code.git
 
 2. **Navigate to the directory**:
    ```bash
-   cd advent-of-code-2024
+   cd advent-of-code
 
 3. **Run a solution**:
     ```bash
-    node day-01/first-day.js
+    node day-N/day-N.js
 
 ---
 
